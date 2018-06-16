@@ -1,3 +1,2 @@
-# team_kielce_34
 # WhereToGo, czyli...
-## aplikacja do umilania czasu
+### aplikacja mająca zachęcać i pomagać w zwiedzaniu Kielc
