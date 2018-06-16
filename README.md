@@ -1,0 +1,3 @@
+# team_kielce_34
+# WhereToGo, czyli...
+## aplikacja do umilania czasu
