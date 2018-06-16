@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <link rel="icon" href="">
+
+    <title></title>
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/login.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div id="id01" class="modal">
+      
+      <form class="modal-content animate" action="register.html" method="POST">
+        <div class="imgcontainer">
+          <a href="index.html"><img src="img/logo.png" width="40%" height="40%" alt="logo"/></a>
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Nazwa użytkownika<font color="red">*</font></b></label>
+          <input type="text" placeholder="Wpisz nazwę użytkownika" name="uname" required>
+
+          <label for="psw"><b>Hasło<font color="red">*</font></b></label>
+          <input type="password" placeholder="Wpisz hasło" name="psw" id="psw" pattern=".{8,}" title="Musi zawierać conajmniej 8 znaków." required>
+
+          <label for="confirmpsw"><b>Potwierdź hasło<font color="red">*</font></b></label>
+          <input type="password" placeholder="Wpisz swoje hasło ponownie" name="confirmpsw" id="confirmpsw" required pattern=".{8,}" title="Musi zawierać conajmniej 8 znaków.">
+          <span id="message"></span>
+
+          <label for="email"><b>Wpisz e-mail<font color="red">*</font></b></label>
+          <input type="email" placeholder="Wpisz swój adres e-mail" name="email" required>
+
+          <label for="confirmemail"><b>Potwierdź e-mail<font color="red">*</font></b></label>
+          <input type="email" placeholder="Wpisz swój adres e-mail ponownie." name="confirmemail" required>
+            
+          <button type="submit" name="register">Zarejestruj</button>
+
+          <label>
+            <input type="checkbox" name="remember" required> Rejestrując konto akceptuję <a href="#">regulamin</a> serwisu.<br>
+          </label>
+          <p>
+            <font color="red">*</font> - Wymagane pola.
+          </p>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1">
+          
+        </div>
+      </form>
+    </div>
+    <script>
+        var submit = document.getElementById('submit');
+
+        
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  </body>
+</html>
